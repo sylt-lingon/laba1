@@ -6,4 +6,4 @@ with open('books.csv', 'r', encoding='cp1251') as f:
      for line in reader:
           if len(line[1]) > 30:
             cnt_name += 1
-print(f'Количество записей, у которых в поле "Название" строка длиннее 30 символов: {cnt_name}')
+print(f'Количество записей, у которых в поле "Название" строка длиннее 30-ти символов: {cnt_name}')
