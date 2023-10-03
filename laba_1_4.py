@@ -6,7 +6,7 @@ with open('books.csv','r', encoding='cp1251') as f:
     for line in f:
       books.append(line.split(';'))
       
-with open('text_file.txt', 'w') as fmy:
+with open('txt_file.txt', 'w') as fmy:
     for i in range(20):
         num = random.randint(1, 9409)
         l = books[num]
