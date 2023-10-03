@@ -21,4 +21,4 @@ if name in authors:
         for i in range(len(inf)):
             print(inf[i])
 else:
-    print('Книг этого автора нет в базе :(')
+    print('Книг этого автора нет в базе.')
