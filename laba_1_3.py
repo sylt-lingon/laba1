@@ -9,7 +9,7 @@ with open('books.csv','r', encoding='cp1251') as f:
         if cur_name in authors:
             authors[cur_name].append(l)
         else:
-            authors[cur_name]=[]
+            authors[cur_name] = []
             authors[cur_name].append(l)
 
 name = input('Введите автора: ')
