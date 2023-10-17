@@ -3,7 +3,7 @@ with open('books.csv','r', encoding='cp1251') as f:
     authors = dict()
     title = f.readline().split(';')
 
-    for line in f.readlines():
+    for line in f:
         l = line.split(';')
         cur_name = l[3]
         if cur_name in authors:
